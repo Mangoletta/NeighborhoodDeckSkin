@@ -1,0 +1,36 @@
+{
+  "name": "Neighborhood Style",
+  "description": "Step into the shoes of the Neighborhood of Mystery with this Steam Deck theme that mimics the Hello Neighbor art-style!",
+  "author": "kharatimelordva",
+  "target": "System-Wide",
+  "version": "v0.5",
+  "manifest_version": 20,
+  "inject": {},
+  "patches":
+  {
+    "Flat": {
+      "default": "Yes",
+      "type": "checkbox",
+      "values": {
+        "Yes": { "flat.css": ["SP"] },
+        "No": {}
+      }
+    },
+    "Style": {
+      "default": "All",
+      "type": "dropdown",
+      "values": {
+        "All": {
+          "games.css": ["SP"],
+          "zigzag.css": ["SP"]
+        },
+        "Background Only": {
+          "zigzag.css": ["SP"]
+        },
+        "Banners Only": {
+          "games.css": ["SP"]
+        }
+      }
+    }
+  }
+}

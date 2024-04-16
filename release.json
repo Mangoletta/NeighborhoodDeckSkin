@@ -1,0 +1,11 @@
+{
+  "include": [
+    "images/landscape_1_mask.png",
+    "images/landscape_1.png",
+    "images/portrait_1_mask.png",
+    "images/portrait_1.png",
+    "images/portrait_2_mask.png",
+    "images/portrait_2.png"
+  ],
+  "ignore": []
+}
